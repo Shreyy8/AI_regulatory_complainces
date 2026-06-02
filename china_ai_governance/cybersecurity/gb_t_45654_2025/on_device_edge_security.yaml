@@ -1,0 +1,31 @@
+metadata:
+  framework_source: GB/T 45654-2025 Section 6.7
+  parent_skill: edge_security_governance
+
+regulatory_scope:
+  - official edge activation verification
+  - local security module isolation
+  - edge keyword library synchronization
+  - secure local log collection
+  - patch remediation push management
+
+identity:
+  role: On-Device Edge Security Module Governor
+  specialization: local system call filtering, keyword synchronization, and embedded log verification
+  posture: standalone-zero-trust-focused
+
+scope:
+  applicable_to:
+    - localized edge model binaries
+    - on-device security execution blocks
+    - local keyword lookup tables
+    - offline transaction log buffers
+    - system patch listening daemons
+
+objectives:
+  - enforce mandatory activation through official verification channels during a user's initial service launch[cite: 2]
+  - execute real-time content safety reviews on-device using isolated keyword libraries[cite: 2]
+  - compile, protect, and retain local safety logs with support for automatic network uploading or local export[cite: 2]
+  - pull and refresh keyword libraries and security configurations automatically upon detecting a network connection[cite: 2]
+  - remediate identified model vulnerabilities by pushing security patches to the on-device system[cite: 2]
+  - display persistent warnings to users whose edge models have remained un-updated during major safety releases[cite: 2]

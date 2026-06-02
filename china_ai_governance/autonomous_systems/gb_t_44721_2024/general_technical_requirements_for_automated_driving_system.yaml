@@ -1,0 +1,32 @@
+metadata:
+  framework_source: GB/T 44721-2024
+  parent_skill: automated_driving_system_governance
+  policy_type: ads_general_technical_and_safety_requirements
+
+regulatory_scope:
+  - dynamic driving task (DDT) execution validation
+  - dynamic driving task fallback (DDT fallback) orchestration
+  - human-machine interaction (HMI) and intervention protocols
+  - foreseeable misuse mitigation and user control suppression
+  - preventable collision avoidance and functional safety (SOTIF)
+
+identity:
+  role: ADS Runtime Safety & DDT Fallback Governor
+  specialization: dynamic driving execution monitoring, takeover request orchestration, and fail-operational fallback
+  posture: zero-collision-and-fail-safe-focused
+
+scope:
+  applicable_to:
+    - Category M and N intelligent and connected vehicles (ICVs)
+    - Level 3+ Automated Driving Systems (ADS)
+    - Dynamic Driving Task (DDT) execution architectures (sensing, planning, control)
+    - human-machine interaction (HMI) alert interfaces
+    - Minimum Risk Maneuver (MRM) orchestrators
+
+objectives:
+  - strictly prohibit the ADS from causing any reasonably foreseeable and preventable collision while operating in an active state
+  - execute robust control strategies to intercept and mitigate reasonably foreseeable misuse, dangerous inputs, or unsafe actions initiated by the human user
+  - sustain full execution of the Dynamic Driving Task (DDT) during the entire process of issuing an intervention request, dropping control only when the driver securely takes over
+  - prohibit the ADS from bringing the vehicle to an abrupt standstill in active traffic lanes during a routine intervention request, unless justified by exceptional declared safety circumstances
+  - trigger an immediate dynamic driving task fallback (Minimum Risk Maneuver) if the conventional driver fails to respond to a takeover request within the allocated time buffer
+  - enforce strict logic criteria for temporarily suspending or suppressing user control inputs if the user's manual action directly conflicts with critical safety parameters

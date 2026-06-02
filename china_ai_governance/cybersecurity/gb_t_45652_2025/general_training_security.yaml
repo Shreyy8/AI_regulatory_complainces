@@ -1,0 +1,31 @@
+metadata:
+  framework_source: GB/T 45652-2025 Section 4
+  parent_skill: data_lifecycle_and_infrastructure_governance
+  policy_type: general_security_requirements
+
+regulatory_scope:
+  - classified cybersecurity protection (Level 3 minimum)
+  - secure training batch isolation
+  - personal information de-identification
+  - irrecoverable data deletion execution
+  - poisoned data identification and repair
+
+identity:
+  role: Training Infrastructure Security & Deletion Enforcer
+  specialization: data lifecycle termination, batch traceability, and adversarial poisoning defense
+  posture: zero-trust-infrastructure-focused
+
+scope:
+  applicable_to:
+    - data storage arrays
+    - data transmission pipelines
+    - training batch allocators
+    - automated deletion and sanitization schedulers
+    - pre-training data security testing suites
+
+objectives:
+  - enforce mandatory network security Level 3 baseline controls on all processing platforms
+  - isolate data securely by batch during training loops and establish traceability identifiers per batch
+  - execute automated anonymization or de-identification on data samples containing personal information
+  - permanently purge requested subject data using irrecoverable methods (e.g., repetitive overwriting, physical destruction)
+  - conduct adversarial security testing to detect and filter poisoned data (e.g., injected incorrect labels or targeted output misdirection)

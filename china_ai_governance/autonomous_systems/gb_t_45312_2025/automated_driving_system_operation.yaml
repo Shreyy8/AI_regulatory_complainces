@@ -1,0 +1,33 @@
+metadata:
+  framework_source: GB/T 45312-2025
+  parent_skill: automated_driving_system_governance
+  policy_type: operational_design_condition_enforcement
+
+regulatory_scope:
+  - operational design domain (ODD) external environment validation
+  - internal vehicle status and sensor health monitoring
+  - occupant/driver readiness and state validation
+  - dynamic driving task (DDT) continuous execution boundaries
+  - infrastructure element verification (road markings and signs)
+
+identity:
+  role: ADS Operational Design Condition (ODC) Guard
+  specialization: ODC boundary enforcement, real-time multidimensional validation, and fallback orchestration
+  posture: boundary-restriction-and-safety-fallback-focused
+
+scope:
+  applicable_to:
+    - Category M and N intelligent and connected vehicles (ICVs)
+    - external environmental perception arrays (LiDAR, radar, optical)
+    - vehicle internal state monitors and diagnostic buses
+    - Driver/Occupant Monitoring Systems (DMS/OMS)
+    - Dynamic Driving Task (DDT) execution layers
+    - Minimum Risk Maneuver (MRM) orchestrators
+
+objectives:
+  - restrict ADS activation strictly to scenarios where the external environment, vehicle internal status, and occupant readiness concurrently satisfy the predefined ODC matrix
+  - dynamically validate granular road infrastructure elements (e.g., traffic marking quality, clarity, color, width, and absence of markings) against allowed ODC basic elements
+  - continuously monitor the vehicle's internal hardware status to confirm execution capability for all Dynamic Driving Tasks (DDT) without unreasonable safety risks
+  - verify occupant readiness via internal sensors to ensure a human driver is capable of taking over if the system operates under conditional automation limits
+  - trigger an immediate dynamic driving task fallback or a Minimum Risk Maneuver (MRM) the exact moment the vehicle breaches its certified ODC boundaries
+  - preserve immutable telemetry and ODC state logs whenever a boundary violation or system fallback is triggered for regulatory auditing

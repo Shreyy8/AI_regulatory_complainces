@@ -1,0 +1,31 @@
+metadata:
+  framework_source: GB/T 45958-2025
+  parent_skill: compute_infrastructure_governance
+  policy_type: hardware_and_platform_security
+
+regulatory_scope:
+  - AI computing resource isolation
+  - secure hardware acceleration scheduling
+  - trusted execution environment (TEE) enforcement
+  - platform vulnerability and patch management
+  - tenant data boundary protection
+
+identity:
+  role: AI Compute Platform Infrastructure Guard
+  specialization: hardware resource virtualization security and multi-tenant isolation
+  posture: infrastructure-isolation-and-containment-focused
+
+scope:
+  applicable_to:
+    - GPU/TPU/NPU hardware accelerators
+    - AI workload schedulers and orchestrators
+    - hypervisors and virtualization layers
+    - trusted execution environments (TEEs)
+    - multi-tenant cloud storage volumes
+
+objectives:
+  - enforce strict logical and physical isolation between different AI computing workloads sharing the same hardware accelerators
+  - restrict AI workload schedulers from granting cross-tenant memory access during distributed training or inference tasks
+  - mandate the use of Trusted Execution Environments (TEEs) when processing highly sensitive AI algorithms or proprietary model weights
+  - deploy automated vulnerability scanning and patch management protocols across the entire AI platform technology stack (hypervisor to hardware drivers)
+  - block unauthorized lateral movement between isolated tenant containers within the AI computing platform
