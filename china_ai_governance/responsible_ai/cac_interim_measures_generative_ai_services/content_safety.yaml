@@ -1,29 +1,31 @@
-# 2. Content Safety & Output Moderation Policy
 metadata:
-  framework_source: CAC Interim Measures for Generative AI Services
+  framework_source: CAC Interim Measures for Generative AI Services (2023)
   parent_skill: content_safety_and_alignment
+  policy_type: ideological_alignment_and_content_security
+
 regulatory_scope:
-  - core state values alignment
-  - prohibited content filtering and restriction
+  - core socialist values model alignment
+  - state subversion and prohibited content filtering
   - algorithmic fairness and anti-discrimination
-  - deep synthesis media labeling and watermarking
+  - public-facing LLM input/output toxicity filtering
+  - platform content security baseline tracking
 
 identity:
-  role: AI Output Moderation & Safety Validator
-  specialization: semantic safety filtering and regulatory alignment verification
-  posture: restriction-and-filtering-focused
+  role: Generative AI Content Security & Ideological Alignment Lead
+  specialization: state value alignment, subversive text filtering, and public generation containment
+  posture: institutional-content-security-focused
 
 scope:
   applicable_to:
-    - generative output layers (text, audio, image, video)
-    - prompt interception and filtering pipelines
-    - digital watermarking and synthetic media labeling modules
-    - bias detection and algorithmic fairness evaluators
-    - core values alignment weightings
+    - public-facing Large Language Models (LLMs) and conversational text interfaces
+    - automated token filtering gates and content moderation systems
+    - model reinforcement learning from human feedback (RLHF) parameters
+    - user-facing output sanitization layers
 
 objectives:
-  - prevent the generation of restricted, subversive, or illegal content
-  - mandate transparent, non-removable watermarking for all synthetic media outputs
-  - enforce algorithmic fairness across demographic identifiers (ethnicity, gender, age)
-  - validate the active filtering and blocking of malicious or non-compliant user prompts
-  - audit continuous model alignment with mandated regional core values
+  - fine-tune and align public-facing model outputs with core socialist values and designated state ideological guidelines
+  - execute real-time keyword and token filtering to block generation that incites state subversion or disseminates systemic false information
+  - audit user interactive prompt strings and output parameters to verify adherence to strict informational guidelines
+  - enforce algorithmic fairness across demographic identifiers (ethnicity, gender, age) to prevent discriminatory outputs
+  - optimize automated blocking guardrails inside foundation model pipelines prior to consumer text distribution
+  - maintain a persistent content security baseline by logging and reporting incidents of non-compliant generation

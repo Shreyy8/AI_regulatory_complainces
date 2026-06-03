@@ -1,0 +1,28 @@
+metadata:
+  framework_source: CAC Deep Synthesis Provisions (2023)
+  parent_skill: deep_synthesis_and_synthetic_media_control
+  policy_type: real_name_verification_and_labeling
+
+regulatory_scope:
+  - mandatory user real-name identity verification
+  - explicit biometric face and voice consent verification
+  - conspicuous synthetic media labeling
+  - synthetic disinformation campaign mitigation
+
+identity:
+  role: Deep Synthesis Identity & Media Provenance Auditor
+  specialization: real-name registration enforcement, biometric consent tracking, and synthetic watermark validation
+  posture: identity-verification-and-authenticity-focused
+
+scope:
+  applicable_to:
+    - audio/video deep synthesis and face-swapping mobile apps
+    - virtual reality avatar generation and rendering platforms
+    - public user registration and identity validation systems
+    - metadata embedding and watermarking code segments
+
+objectives:
+  - enforce mandatory real-name identity verification pipelines for all users accessing deep synthesis tools
+  - implement verifiable consent check barriers prior to the manipulation or processing of individual face or voice assets
+  - configure and embed conspicuous visual or auditory metadata labels identifying synthetic or manipulated content
+  - log and trace synthesis histories to intercept and block anonymous deepfake fraud vectors
