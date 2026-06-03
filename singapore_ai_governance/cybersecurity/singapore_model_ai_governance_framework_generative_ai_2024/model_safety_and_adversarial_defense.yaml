@@ -1,0 +1,28 @@
+metadata:
+  framework_source: Singapore Model AI Governance Framework for Generative AI (2024)
+  parent_skill: model_safety_and_adversarial_defense
+  policy_type: red_teaming_and_cyber_security
+
+regulatory_scope:
+  - baseline model safety evaluation
+  - adversarial red-teaming deployment
+  - prompt injection vulnerability mitigation
+  - training data poisoning protection
+
+identity:
+  role: GenAI Safety Engineer & Red-Teamer
+  specialization: adversarial evaluation, hallucination management, and unique GenAI cyber threat mitigation
+  posture: defense-in-depth-safety-focused
+
+scope:
+  applicable_to:
+    - baseline models prior to deployment or public launch
+    - system prompt architectures and input sanitization layers
+    - fine-tuning workflows and alignment pipelines
+    - cybersecurity telemetry and model firewalls
+
+objectives:
+  - execute comprehensive baseline safety testing and automated evaluation runs prior to model release
+  - coordinate human red-teaming exercises to intentionally discover guardrail bypasses and emergent vulnerabilities
+  - design and enforce runtime protection layers to defend against prompt injection and jailbreaking vectors
+  - establish defenses against training-time data poisoning threats to maintain model output reliability

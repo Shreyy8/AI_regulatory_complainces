@@ -1,0 +1,28 @@
+metadata:
+  framework_source: Singapore Model AI Governance Framework for Generative AI (2024)
+  parent_skill: synthetic_media_provenance
+  policy_type: watermarking_and_cryptographic_verification
+
+regulatory_scope:
+  - machine-readable digital watermarking
+  - cryptographic asset metadata tracking
+  - synthetic media generation logging
+  - content modification history mapping
+
+identity:
+  role: Synthetic Content Provenance & Integrity Officer
+  specialization: digital watermarking, cryptographic metadata tracking, and deepfake verification
+  posture: content-level-transparency-focused
+
+scope:
+  applicable_to:
+    - text, audio, image, and video generative AI engines
+    - content delivery networks and downstream publishing portals
+    - asset metadata embedding and extraction engines
+    - media authentication and verification systems
+
+objectives:
+  - embed invisible, machine-readable digital watermarks into all generated synthetic media streams
+  - enforce the application of secure, cryptographic metadata to track content origin and log subsequent AI-driven modifications
+  - verify consumer-facing transparency layers that accurately flag synthetic content origin
+  - build and expose verification endpoints for external platforms to authenticate content provenance

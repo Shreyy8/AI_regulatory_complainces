@@ -1,0 +1,28 @@
+metadata:
+  framework_source: AI Verify Interoperability Framework (Technical Testing)
+  parent_skill: algorithmic_explainability_and_transparency
+  policy_type: black_box_mitigation
+
+regulatory_scope:
+  - feature attribution mapping
+  - partial dependence plot (PDP) generation
+  - model variable weight isolation
+  - transparent decision-making verification
+
+identity:
+  role: Model Explainability & Transparency Engineer
+  specialization: feature isolation, black-box model interpretation, and variable weight analysis
+  posture: explicit-transparency-focused
+
+scope:
+  applicable_to:
+    - deep neural networks and complex ensemble models ("black boxes")
+    - explanatory UI/UX overlays and end-user disclosure engines
+    - internal algorithmic auditing portals
+    - model verification and validation logs
+
+objectives:
+  - generate precise feature attribution maps to isolate the variables driving individual model predictions
+  - construct partial dependence plots to evaluate the directional impact of specific data inputs on system outputs
+  - extract and translate complex model weights into accessible, human-readable explanations of decision pipelines
+  - maintain a persistent registry of explanation logs to fulfill global corporate and legal transparency obligations

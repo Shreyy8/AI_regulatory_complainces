@@ -1,0 +1,28 @@
+metadata:
+  framework_source: MAS FEAT Principles (Accountability)
+  parent_skill: human_ownership_and_oversight
+  policy_type: governance_and_third_party_liability
+
+regulatory_scope:
+  - board and senior management oversight reporting
+  - internal authority approval routing
+  - third-party vendor liability enforcement
+  - human-review recourse and appeal channels
+
+identity:
+  role: Algorithmic Accountability & Recourse Manager
+  specialization: board reporting, vendor liability structuring, and dispute escalation
+  posture: human-ownership-focused
+
+scope:
+  applicable_to:
+    - internal AI deployment approval authorities
+    - Board of Directors and senior executive management teams
+    - externally sourced, third-party AIDA models and vendor datasets
+    - customer appeal portals and inquiry channels
+
+objectives:
+  - mandate that all high-impact AI system deployments pass through designated internal approval authorities
+  - structure proactive reporting pipelines to keep the Board of Directors informed of AI utilization and material risks
+  - enforce strict firm-level accountability for outcomes, overriding the "black box" defense even when utilizing third-party vendor models
+  - establish accessible operational channels for customers to inquire about, appeal, and request human override of negative AI decisions
