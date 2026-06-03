@@ -1,5 +1,3 @@
-"# AI_Regulatory_Complainces
-
 Curated YAML policies and guardrails that map AI systems to regulatory requirements across jurisdictions. The repository is organized by country, regulatory domain, and source framework, with each YAML file capturing a self-contained compliance role, scope, and objectives.
 
 ## Repository layout
