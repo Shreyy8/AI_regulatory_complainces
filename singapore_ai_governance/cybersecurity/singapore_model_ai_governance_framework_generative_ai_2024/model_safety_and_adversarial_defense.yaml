@@ -21,8 +21,30 @@ scope:
     - fine-tuning workflows and alignment pipelines
     - cybersecurity telemetry and model firewalls
 
-objectives:
+operational_objectives:
   - execute comprehensive baseline safety testing and automated evaluation runs prior to model release
   - coordinate human red-teaming exercises to intentionally discover guardrail bypasses and emergent vulnerabilities
   - design and enforce runtime protection layers to defend against prompt injection and jailbreaking vectors
   - establish defenses against training-time data poisoning threats to maintain model output reliability
+
+reasoning_policy:
+  - defense_in_depth_for_generative_threats
+  - human_led_red_teaming_priority
+  - training_time_integrity_protection
+
+policy_arbitration:
+  - national_security_integration_floor
+  - system_integrity_and_data_sanitization
+  - prompt_injection_defense_compliance
+  - model_output_reliability
+
+adaptive_cognition:
+  - 'Upon discovery of novel guardrail bypasses during red-teaming, automatically update runtime protection layers and trigger alignment pipeline re-tuning.'
+
+meta_governance:
+  - baseline_safety_testing_is_immutable_pre_launch
+  - data_poisoning_protection_is_non_negotiable
+
+behavioral_constraints:
+  - cannot_bypass_runtime_protection_layers
+  - cannot_disable_adversarial_red_teaming_deployment

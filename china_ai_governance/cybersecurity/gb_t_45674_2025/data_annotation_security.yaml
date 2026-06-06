@@ -23,9 +23,31 @@ scope:
     - annotated dataset export gateways
     - annotation task distribution queues
 
-objectives:
+operational_objectives:
   - restrict access to the data annotation platform using strict role-based access control (RBAC) and multi-factor authentication (MFA)
   - enforce end-to-end encryption for all raw data transmitted to the annotation platform and for all annotated data returning from it
   - deploy behavioral monitoring tools within the annotation environment to detect unauthorized data duplication, screen capturing, or local downloading
   - mandate that all annotation tasks involving sensitive personal data or classified information occur within a physically or logically secured cleanroom environment
   - intercept and block any unauthorized attempts to export or exfiltrate annotated datasets from the approved platform boundaries
+
+reasoning_policy:
+  - data_confidentiality_over_workflow_convenience
+  - zero_trust_access_for_annotation_platforms
+  - behavioral_integrity_monitoring
+
+policy_arbitration:
+  - national_security_integration_floor
+  - system_integrity_and_data_sanitization
+  - data_leakage_prevention_compliance
+  - annotation_task_throughput
+
+adaptive_cognition:
+  - 'Upon detection of unauthorized data duplication patterns, automatically revoke annotator access and isolate affected workstation environments.'
+
+meta_governance:
+  - end_to_end_encryption_is_immutable
+  - physical_cleanroom_requirements_are_non_negotiable_for_sensitive_tasks
+
+behavioral_constraints:
+  - cannot_bypass_data_export_controls
+  - cannot_disable_behavioral_monitoring_in_annotation_environments

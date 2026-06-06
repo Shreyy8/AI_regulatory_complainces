@@ -22,10 +22,32 @@ scope:
     - human-sampled verification workflows
     - training data storage clusters
 
-objectives:
+operational_objectives:
   - revoke annotation authorization for personnel who fail safety training assessments or periodic re-evaluations[cite: 2]
   - enforce strict identity separation ensuring execution personnel and review personnel are never the same individual[cite: 2]
   - trigger immediate re-annotation blocks for functional data batches found to have inaccurate content[cite: 2]
   - invalidate and purge functional training data batches found to contain any illegal or unhealthy information[cite: 2]
   - mandate that 100% of safety-annotated data points pass review by at least one independent auditor[cite: 2]
   - enforce physical or logical isolated storage for safety annotation data distinct from functional datasets[cite: 2]
+
+reasoning_policy:
+  - role_separation_as_integrity_substrate
+  - zero_trust_privilege_escalation_prevention
+  - independent_audit_verification_priority
+
+policy_arbitration:
+  - national_security_integration_floor
+  - system_integrity_and_data_sanitization
+  - annotator_role_separation_compliance
+  - pipeline_throughput_efficiency
+
+adaptive_cognition:
+  - 'If functional data accuracy drops below threshold, automatically freeze affected annotation queues and trigger mandatory re-training for annotators.'
+
+meta_governance:
+  - safety_annotation_review_is_immutable
+  - isolated_storage_governance_is_non_negotiable
+
+behavioral_constraints:
+  - cannot_merge_execution_and_review_roles
+  - cannot_bypass_safety_training_verification

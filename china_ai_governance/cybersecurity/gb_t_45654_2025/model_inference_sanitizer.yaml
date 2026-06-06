@@ -22,10 +22,32 @@ scope:
     - safety risk test question banks
     - input prompt parsing nodes
 
-objectives:
+operational_objectives:
   - enforce strict physical or logical separation between the model training and inference environments[cite: 2]
   - monitor and block real-time malicious inputs including injection, data theft, and adversarial attacks[cite: 2]
   - execute automated safety risk test banks to verify model-generated output qualified rates are not less than 90%[cite: 2]
   - mandate a refusal rate of not less than 95% when responding to explicitly illegal or unhealthy inducements[cite: 2]
   - restrict false-positive refusal rates to not greater than 5% for benign questions regarding culture, customs, or history[cite: 2]
   - deploy fine-tuning or machine unlearning protocols immediately upon detecting model backdoor risks[cite: 2]
+
+reasoning_policy:
+  - trust_but_verify_output_safety
+  - real_time_adversarial_defense_priority
+  - environmental_isolation_integrity
+
+policy_arbitration:
+  - national_security_integration_floor
+  - system_integrity_and_data_sanitization
+  - model_output_safety_compliance
+  - inference_response_latency
+
+adaptive_cognition:
+  - 'Upon detection of adversarial prompt patterns, automatically increase sampling rate for output sanitization and lower refusal thresholds.'
+
+meta_governance:
+  - inference_environment_isolation_is_immutable
+  - output_safety_qualified_rates_are_non_negotiable
+
+behavioral_constraints:
+  - cannot_bypass_model_inference_sanitization
+  - cannot_disable_real_time_prompt_injection_filtering

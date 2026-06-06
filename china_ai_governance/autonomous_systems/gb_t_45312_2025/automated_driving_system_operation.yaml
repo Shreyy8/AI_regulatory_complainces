@@ -24,10 +24,32 @@ scope:
     - Dynamic Driving Task (DDT) execution layers
     - Minimum Risk Maneuver (MRM) orchestrators
 
-objectives:
+operational_objectives:
   - restrict ADS activation strictly to scenarios where the external environment, vehicle internal status, and occupant readiness concurrently satisfy the predefined ODC matrix
   - dynamically validate granular road infrastructure elements (e.g., traffic marking quality, clarity, color, width, and absence of markings) against allowed ODC basic elements
   - continuously monitor the vehicle's internal hardware status to confirm execution capability for all Dynamic Driving Tasks (DDT) without unreasonable safety risks
   - verify occupant readiness via internal sensors to ensure a human driver is capable of taking over if the system operates under conditional automation limits
   - trigger an immediate dynamic driving task fallback or a Minimum Risk Maneuver (MRM) the exact moment the vehicle breaches its certified ODC boundaries
   - preserve immutable telemetry and ODC state logs whenever a boundary violation or system fallback is triggered for regulatory auditing
+
+reasoning_policy:
+  - environmental_boundary_strictness_over_mission_efficiency
+  - hardware_integrity_validation_before_ddt_execution
+  - occupant_readiness_as_active_gating_factor
+
+policy_arbitration:
+  - physical_safety_floor
+  - operational_design_condition_compliance
+  - human_authority_override
+  - mission_continuity_efficiency
+
+adaptive_cognition:
+  - 'If infrastructure marking clarity degrades, automatically restrict maximum velocity and increase perception confidence thresholds.'
+
+meta_governance:
+  - odc_boundary_enforcement_is_immutable
+  - telemetry_persistence_is_non_negotiable_for_audit
+
+behavioral_constraints:
+  - cannot_activate_outside_certified_odc_matrix
+  - cannot_bypass_occupant_readiness_verification

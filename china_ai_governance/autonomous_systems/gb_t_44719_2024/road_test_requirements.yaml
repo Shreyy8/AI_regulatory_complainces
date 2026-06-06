@@ -23,10 +23,32 @@ scope:
     - human safety test drivers and internal cabin monitors
     - remote monitoring and telemetry control centers
 
-objectives:
+operational_objectives:
   - enforce a strict prerequisite logic gate requiring vehicles to successfully pass all simulated and closed-course scenario tests before authorizing public open-road testing
   - mandate continuous, synchronized logging of vehicle kinematics, ADS control status, and external/internal video feeds to a tamper-proof data recorder during the entirety of the road test
   - dynamically audit the physical execution of routine DDT scenarios (e.g., lane keeping, unprotected intersections) and emergency scenarios (e.g., pedestrian avoidance, AEB) within the approved Operational Design Condition (ODC)
   - monitor safety driver readiness via internal sensors during active tests, ensuring the human operator maintains the physical and cognitive posture required to execute an immediate manual takeover
   - validate the automated transition of control by orchestrating physical takeover request (TOR) simulations, triggering a Minimum Risk Maneuver (MRM) if the driver intentionally ignores the prompt during testing
   - transmit real-time, encrypted telemetry heartbeats to the regulatory remote monitoring center, instantly flagging any system disengagements, ODC boundary breaches, or near-miss collisions
+
+reasoning_policy:
+  - human_safety_readiness_supersedes_autonomous_intent
+  - functional_safety_integrity_as_primary_constraint
+  - validation_rigor_over_test_velocity
+
+policy_arbitration:
+  - physical_safety_floor
+  - human_authority_override
+  - operational_design_condition_compliance
+  - target_arrival_time_efficiency
+
+adaptive_cognition:
+  - 'If cabin monitoring telemetry degrades or sensor noise exceeds threshold, automatically tighten ODC boundary and increase safety-driver heartbeat frequency.'
+
+meta_governance:
+  - runtime_latency_kpis_cannot_relax_safety_validation_thresholds
+  - road_test_progression_requires_immutable_simulation_proofs
+
+behavioral_constraints:
+  - cannot_disable_safety_driver_monitor
+  - cannot_bypass_dssad_logging_during_active_test
