@@ -1,0 +1,35 @@
+metadata:
+  name: ai_verify_iso42001_bridge
+  layer: interoperability
+  region: Singapore
+  target_standard: ISO/IEC 42001
+  version: 1.0.0
+
+interoperability_posture:
+  local_canonical: true
+  equivalence_requires_evidence: true
+  mapping_mode: certification_bridge
+
+reasoning_policy:
+  - local_sovereignty_preservation
+  - evidence_based_assurance
+  - modular_transparency_alignment
+
+policy_arbitration:
+  1: AI Verify Toolkit Assessment Results
+  2: ISO/IEC 42001 AI Management System Controls
+  3: ASEAN Model AI Governance Framework
+
+adaptive_cognition:
+  conflict_trigger: "metric_comparability_failure"
+  action_on_conflict: "revert_to_raw_telemetry_validation"
+  shrink_autonomy: true
+
+meta_governance:
+  immutables:
+    - "imda_pdpc_joint_oversight"
+    - "voluntary_self_assessment_integrity"
+
+behavioral_constraints:
+  - "cannot_claim_iso_equivalence_without_reproduced_test_logs"
+  - "cannot_obscure_algorithmic_bias_metrics"

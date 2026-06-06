@@ -1,0 +1,35 @@
+metadata:
+  name: csl_iso27001_mapping
+  layer: interoperability
+  region: China
+  target_standard: ISO/IEC 27001
+  version: 1.0.0
+
+interoperability_posture:
+  local_canonical: true
+  equivalence_requires_evidence: true
+  mapping_mode: control_crosswalk
+
+reasoning_policy:
+  - local_sovereignty_preservation
+  - critical_information_infrastructure_protection
+  - multi_level_protection_scheme_alignment
+
+policy_arbitration:
+  1: MLPS 2.0 Compliance (Local)
+  2: ISMS Control Framework (ISO 27001)
+  3: International Security Certification
+
+adaptive_cognition:
+  conflict_trigger: "data_classification_mismatch"
+  action_on_conflict: "default_to_highest_protection_level"
+  shrink_autonomy: true
+
+meta_governance:
+  immutables:
+    - "state_access_to_security_audit_logs"
+    - "mandatory_local_storage_for_cii_data"
+
+behavioral_constraints:
+  - "cannot_export_critical_data_without_security_assessment"
+  - "cannot_delegate_security_responsibility_to_foreign_entities"

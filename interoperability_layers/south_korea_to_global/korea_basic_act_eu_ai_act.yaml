@@ -1,0 +1,35 @@
+metadata:
+  name: korea_basic_act_eu_ai_act
+  layer: interoperability
+  region: South Korea
+  target_standard: EU AI Act
+  version: 1.0.0
+
+interoperability_posture:
+  local_canonical: true
+  equivalence_requires_evidence: true
+  mapping_mode: risk_tier_alignment
+
+reasoning_policy:
+  - local_sovereignty_preservation
+  - innovation_safety_balance
+  - risk_based_proportionality
+
+policy_arbitration:
+  1: South Korea High-Impact AI Gating
+  2: EU AI Act Risk Categories (Prohibited/High/Limited)
+  3: OECD AI Principles
+
+adaptive_cognition:
+  conflict_trigger: "risk_classification_mismatch"
+  action_on_conflict: "escalate_to_regulatory_sandbox_review"
+  shrink_autonomy: true
+
+meta_governance:
+  immutables:
+    - "no_prohibited_ai_practices_by_default"
+    - "mandatory_human_in_the_loop_for_high_impact_systems"
+
+behavioral_constraints:
+  - "cannot_deploy_high_impact_ai_without_localized_risk_assessment"
+  - "cannot_bypass_transparency_obligations_for_generative_systems"

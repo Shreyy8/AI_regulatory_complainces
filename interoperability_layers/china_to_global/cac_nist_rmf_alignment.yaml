@@ -1,0 +1,35 @@
+metadata:
+  name: cac_nist_rmf_alignment
+  layer: interoperability
+  region: China
+  target_standard: US NIST AI RMF
+  version: 1.0.0
+
+interoperability_posture:
+  local_canonical: true
+  equivalence_requires_evidence: true
+  mapping_mode: directional_alignment
+
+reasoning_policy:
+  - local_sovereignty_preservation
+  - administrative_oversight_priority
+  - risk_managed_market_access
+
+policy_arbitration:
+  1: Local Data Residency and Security Assessment (CAC)
+  2: Systemic Risk Management Framework (NIST RMF)
+  3: Global Safety Benchmarking
+
+adaptive_cognition:
+  conflict_trigger: "divergence_in_content_moderation_logic"
+  action_on_conflict: "suspend_autonomous_mapping;invoke_manual_administrative_review"
+  shrink_autonomy: true
+
+meta_governance:
+  immutables:
+    - "socialist_core_values_alignment"
+    - "national_security_primacy"
+
+behavioral_constraints:
+  - "cannot_export_pii_without_automated_equivalence_proof"
+  - "cannot_bypass_algorithm_registration_requirements"

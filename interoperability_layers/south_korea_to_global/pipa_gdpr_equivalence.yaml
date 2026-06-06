@@ -1,0 +1,35 @@
+metadata:
+  name: pipa_gdpr_equivalence
+  layer: interoperability
+  region: South Korea
+  target_standard: EU GDPR
+  version: 1.0.0
+
+interoperability_posture:
+  local_canonical: true
+  equivalence_requires_evidence: true
+  mapping_mode: adequacy_alignment
+
+reasoning_policy:
+  - local_sovereignty_preservation
+  - data_subject_rights_maximization
+  - privacy_by_design_reciprocity
+
+policy_arbitration:
+  1: South Korea PIPA Mandatory Clauses
+  2: EU GDPR Compliance Framework
+  3: Global Privacy Benchmarks
+
+adaptive_cognition:
+  conflict_trigger: "cross_border_transfer_restriction_gap"
+  action_on_conflict: "apply_stricter_standard;generate_compliance_delta_report"
+  shrink_autonomy: true
+
+meta_governance:
+  immutables:
+    - "pipc_enforcement_authority"
+    - "consent_validity_requirements"
+
+behavioral_constraints:
+  - "cannot_export_pii_without_automated_equivalence_proof"
+  - "cannot_waive_data_deletion_rights"
