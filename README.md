@@ -4,10 +4,9 @@ Curated YAML policies and guardrails that map AI systems to regulatory requireme
 
 ## Repository Layout
 
-- **Top level:** Country/jurisdiction folders (**China**, **Singapore**, and **South Korea**).
-- **Domain level:** Topical areas such as `core_governance`, `privacy`, `cybersecurity`, `responsible_ai`, `synthetic_media`, `intellectual_property`, `autonomous_systems`, `financial_ai`, `healthcare_ai`, and `labor_governance`.
-- **Framework level:** Directories named after the source regulation or standard (e.g., `gb_t_45652_2025`, `mas_feat_principles`, `south_korea_ai_basic_act`).
-- **Files:** YAML policy/guard definitions that encode compliance logic for specific roles or controls.
+- **Top level:** Compliant jurisdiction folders (`compliant_china`, `compliant_eu`, `compliant_japan`, `compliant_singapore`, `compliant_south_korea`, `compliant_us`) and interoperability mappings (`interop`).
+- **Domain level:** Simplified topical areas such as `core`, `privacy`, `security`, `responsible`, `synthetic`, `ip`, `autonomous`, `finance`, `healthcare`, `labor`, `consumer`, `defense`, `transportation`, `state`, and `energy`.
+- **Files:** YAML policy/guard definitions that encode compliance logic for specific roles or controls, moved directly into domain folders (no framework-level subdirectories).
 
 ## Regulatory Coverage
 
@@ -37,6 +36,26 @@ This repository currently tracks compliance adherence for the following framewor
 - **Privacy & IP:** PIPA Article 37-2 (Automated Decision Rights) & MCST Copyright Guidelines.
 - **Ethics:** MSIT National Guidelines for AI Ethics.
 
+### 🇯🇵 Japan AI Governance
+*Focus: Sovereignty, Innovation Promotion, and Medical Data.*
+- **Core Governance:** AI Promotion Act (2025) & METI/MIC AI Guidelines.
+- **Healthcare:** Next-Gen Medical Infrastructure Act & PMD Act (SaMD Continuous Learning).
+- **Intellectual Property:** Copyright Act Article 30-4 (AI Training).
+- **Privacy:** APPI 2026 Amendments (Privacy Preserving AI).
+
+### 🇺🇸 USA AI Governance
+*Focus: Executive Mandates, State-Level Privacy, and Algorithmic Accountability.*
+- **Federal Strategy:** Executive Order 14110 (Safety & Security) & EO 14179 (Leadership).
+- **Core Principles:** White House Blueprint for an AI Bill of Rights & National AI Initiative Act.
+- **State Privacy:** CCPA/CPRA (California), BIPA (Illinois), ADMT (Colorado), CTDPA (Connecticut), MCDPA (Minnesota).
+- **Sectoral Regulation:** FDA PCCP (Healthcare), FAA Reauthorization (Aviation), FTC Consumer Protection.
+- **Specialized Domains:** Tennessee ELVIS Act (Voice/Likeness), NYC AEDT (Employment Fairness).
+
+### 🇪🇺 EU AI Governance
+*Focus: Risk-Based Classification, Conformity Assessments, and Fundamental Rights.*
+- **AI Act:** High-Risk AI Systems, Prohibited Practices, and General Purpose AI.
+- **Healthcare:** Annex I & III Conformity for Medical AI.
+
 ## YAML Format
 
 Most files follow a shared schema:
@@ -48,6 +67,6 @@ Most files follow a shared schema:
 
 ## How to Use
 
-Select a jurisdiction, domain, and framework folder, then consume the YAML files as policy inputs for governance tooling, compliance checklists, or agentic guardrails. Each YAML is intentionally self-contained.
+Select a jurisdiction and domain folder, then consume the YAML files as policy inputs for governance tooling, compliance checklists, or agentic guardrails. Each YAML is intentionally self-contained.
 
 > **Note:** This repository is informational and does not constitute legal advice.
